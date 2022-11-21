@@ -1,0 +1,10 @@
+.childContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  position: relative;
+  align-items: center;
+  /* height: 100vh; */
+  padding-top: 40px;
+  row-gap: 30px;
+}
