@@ -6,7 +6,7 @@ import styles from "./App.module.css";
 const App = () => {
   return (
     <Fragment>
-      <Background></Background>
+      <Background />
       <div className={styles.childContainer}>
         <HomePage />
       </div>

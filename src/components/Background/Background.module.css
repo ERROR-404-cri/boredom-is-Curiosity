@@ -3,8 +3,9 @@
   height: 100vh;
   background-color: #eef1f0;
   overflow: hidden;
-  filter: blur(30px);
+  /* filter: blur(30px); */
   position: fixed;
+  z-index: 1;
 }
 
 .backGroundContainer::before {
@@ -40,4 +41,15 @@
     width: 35vh;
     height: 35vh;
   }
+}
+
+.backGroundContainer2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  overflow: hidden;
+  /* filter: blur(30px); */
+  backdrop-filter: blur(30px);
+  position: fixed;
+  z-index: 2;
 }

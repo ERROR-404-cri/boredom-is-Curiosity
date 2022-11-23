@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: transparent;
   position: relative;
+  z-index: 3;
   align-items: center;
   /* height: 100vh; */
   padding-top: 40px;

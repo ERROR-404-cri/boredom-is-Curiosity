@@ -1,7 +1,13 @@
+import { Fragment } from "react";
 import styles from "./Background.module.css";
 
 const Background = () => {
-  return <div className={styles.backGroundContainer}></div>;
+  return (
+    <Fragment>
+      <div className={styles.backGroundContainer}></div>
+      <div className={styles.backGroundContainer2}></div>
+    </Fragment>
+  );
 };
 
 export default Background;
