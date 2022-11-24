@@ -12,9 +12,20 @@
   padding: 5px;
   border-radius: 5px;
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
   justify-content: space-between;
   column-gap: 15px;
   margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .searchBar {
+    justify-content: center;
+  }
+  .container {
+    width: 80%;
+  }
 }
 
 .inputClass {
@@ -22,6 +33,7 @@
   outline: none;
   flex-grow: 1;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 .searchBarBtn {

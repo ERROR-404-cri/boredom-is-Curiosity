@@ -1,15 +1,16 @@
 import { Fragment } from "react";
 import ActivityInfoCard from "../../components/ActivityInfoCard/ActivityInfoCard";
 import ActivityInfoMenuButtons from "../../components/ActivityInfoMenuButtons/ActivityInfoMenuButtons";
-import Card from "../../components/SearchCard/Card";
+import SearchBar from "../../components/SearchCard/Card";
+import { IHomePage } from "./HomePage.types";
 
-const HomePage = () => {
+const HomePage = ({ title = "Boredom is Qriosity" }: IHomePage) => {
   return (
     <Fragment>
-      <div>HomePage</div>
-      <Card />
-      <ActivityInfoCard />
-      <ActivityInfoMenuButtons />
+      <div>{title}</div>
+      <SearchBar />
+      <ActivityInfoCard headingText="dummy" briefText="dummy" CTAText="dummy" />
+      {/* <ActivityInfoMenuButtons /> */}
     </Fragment>
   );
 };

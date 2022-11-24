@@ -1,3 +1,3 @@
-export interface Idummy {
-  abc: string;
+export interface IHomePage {
+  title?: string;
 }

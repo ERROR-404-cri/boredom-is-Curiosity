@@ -1,7 +1,12 @@
-// import ActivityInfoMenuButtons from "../ActivityInfoMenuButtons/ActivityInfoMenuButtons";
+import { IActivityInfoCard } from "./ActivityInfoCard.types";
 import styles from "./ActivityInfoCard.module.css";
 
-const ActivityInfoCard = () => {
+const ActivityInfoCard = ({
+  headingText,
+  briefText,
+  CTAText,
+  CTAOnClickHandler,
+}: IActivityInfoCard) => {
   return (
     <section className={styles.container}>
       <h1 className={styles.headingContainer}>

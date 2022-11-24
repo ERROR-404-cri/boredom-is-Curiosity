@@ -1,3 +1,6 @@
-export interface a {
-  a: string;
+export interface IActivityInfoCard {
+  headingText: string;
+  briefText: string;
+  CTAText: string;
+  CTAOnClickHandler?: string;
 }
