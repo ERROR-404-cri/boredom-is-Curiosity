@@ -34,6 +34,9 @@
   flex-grow: 1;
   font-size: 14px;
   overflow-x: hidden;
+  font-family: "Marvel", sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
 }
 
 .searchBarBtn {
@@ -43,4 +46,7 @@
   border: #9181ff;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
 }

@@ -9,6 +9,14 @@
 
 .headingContainer {
   margin-bottom: 25px;
+  font-family: "Marck Script", cursive;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.activitybriefContainer {
+  font-family: "Marvel", sans-serif;
+  font-size: 18px;
 }
 
 .moreInfoBtn {
@@ -19,4 +27,5 @@
   margin-top: 38px;
   cursor: pointer;
   border: none;
+  font-family: "ABeeZee", sans-serif;
 }
