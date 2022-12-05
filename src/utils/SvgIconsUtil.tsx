@@ -1,4 +1,4 @@
-export const AccessibilityIcon = (props: any) => (
+export const AccessibilityIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -18,7 +18,7 @@ export const AccessibilityIcon = (props: any) => (
   </svg>
 );
 
-export const ActivityIcon = (props: any) => (
+export const ActivityIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -34,7 +34,7 @@ export const ActivityIcon = (props: any) => (
     <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
   </svg>
 );
-export const KeyIcon = (props: any) => (
+export const KeyIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -50,7 +50,7 @@ export const KeyIcon = (props: any) => (
     <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
   </svg>
 );
-export const LinkIcon = (props: any) => (
+export const LinkIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -67,7 +67,7 @@ export const LinkIcon = (props: any) => (
     <line x1="8" y1="12" x2="16" y2="12"></line>
   </svg>
 );
-export const ParticipantsIcon = (props: any) => (
+export const ParticipantsIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -84,7 +84,7 @@ export const ParticipantsIcon = (props: any) => (
     <circle cx="12" cy="7" r="4"></circle>
   </svg>
 );
-export const PriceIcon = (props: any) => (
+export const PriceIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -101,7 +101,7 @@ export const PriceIcon = (props: any) => (
     <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
   </svg>
 );
-export const TypeIcon = (props: any) => (
+export const TypeIcon = (props: { strokeColor: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
