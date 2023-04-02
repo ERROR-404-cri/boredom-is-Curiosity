@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boredom-is-Curiosity/static/css/main.dda2a530.css",
+    "main.js": "/boredom-is-Curiosity/static/js/main.be4d0cb7.js",
+    "static/js/787.022a0d1e.chunk.js": "/boredom-is-Curiosity/static/js/787.022a0d1e.chunk.js",
+    "index.html": "/boredom-is-Curiosity/index.html",
+    "main.dda2a530.css.map": "/boredom-is-Curiosity/static/css/main.dda2a530.css.map",
+    "main.be4d0cb7.js.map": "/boredom-is-Curiosity/static/js/main.be4d0cb7.js.map",
+    "787.022a0d1e.chunk.js.map": "/boredom-is-Curiosity/static/js/787.022a0d1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dda2a530.css",
+    "static/js/main.be4d0cb7.js"
+  ]
+}
