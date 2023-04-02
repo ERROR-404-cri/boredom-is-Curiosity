@@ -2,7 +2,7 @@
   "name": "quest-wanderer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ERROR-404-cri.github.io/boredom-is-curiosity",
+  "homepage": "https://ERROR-404-cri.github.io/boredom-is-Curiosity",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.14.1",
