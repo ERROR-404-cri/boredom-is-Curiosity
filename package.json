@@ -2,6 +2,7 @@
   "name": "quest-wanderer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ERROR-404-cri.github.io/boredom-is-curiosity",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -19,6 +20,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build_and_serve": "react-scripts build && serve build",
@@ -44,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "serve": "^14.1.2"
   }
 }
