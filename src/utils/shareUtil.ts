@@ -19,9 +19,11 @@ export const shareActivity = async (activtyDetails: IActivityResponse) => {
     return false;
   }
   const title = `here is the activity: ${activityName}`;
-  const text = ` || easiness: ${accessibility ?? ""} | participants: ${
-    participants ?? ""
-  } | price: ${price ?? ""} | type: ${type ?? ""} || `;
+  const text = `here is the activity: ${activityName} || easiness: ${
+    accessibility ?? ""
+  } | participants: ${participants ?? ""} | price: ${price ?? ""} | type: ${
+    type ?? ""
+  } || `;
   const url = document?.location?.href || "";
 
   const isActivitySharedSuccessFully = await share(title, text, url);
