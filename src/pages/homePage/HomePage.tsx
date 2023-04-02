@@ -1,18 +1,13 @@
-import { Fragment } from "react";
-import ActivityInfoCard from "../../components/ActivityInfoCard/ActivityInfoCard";
-// import ActivityInfoMenuButtons from "../../components/ActivityInfoMenuButtons/ActivityInfoMenuButtons";
-import SearchBar from "../../components/SearchCard/Card";
-import { IHomePage } from "./HomePage.types";
 import styles from "./HomePage.module.css";
+import { IHomePage } from "./HomePage.types";
+import HomePageLayout from "../../features/HomePage/Layout";
 
-const HomePage = ({ title = "Boredom is Qriosity" }: IHomePage) => {
+const HomePage = ({ title = "QuestWanderer" }: IHomePage) => {
   return (
-    <Fragment>
+    <div className={styles.container}>
       <div className={styles.titleClass}>{title}</div>
-      <SearchBar />
-      <ActivityInfoCard headingText="dummy" briefText="dummy" CTAText="dummy" />
-      {/* <ActivityInfoMenuButtons /> */}
-    </Fragment>
+      <HomePageLayout />
+    </div>
   );
 };
 

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 125px;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.container {
+  position: absolute;
+  bottom: 0;
+  padding: 40px 60px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: white;
+  height: 75%;
+  width: 100%;
+}

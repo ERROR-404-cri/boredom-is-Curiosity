@@ -1,0 +1,21 @@
+.btnContainer {
+  border: none;
+  color: white;
+  background-color: tint;
+  background-color: #029292;
+  border-radius: 12px;
+  padding: 14px 40px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btnContainer:hover {
+  background-color: #037e7e;
+  /* background-color: #fcf3f4; */
+  /* color: rgb(3, 126, 126); */
+  /* border: 1px solid rgb(3, 126, 126); */
+}
+
+.btnContainer:active {
+  background-color: #f1735c;
+}
